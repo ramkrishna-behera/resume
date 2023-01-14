@@ -1,0 +1,111 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 2em;
+    width: 200px;
+    text-align: center;
+}
+.connect{
+    clip-path: polygon(0 15vh,100% 0,100% 100%,0 100%);
+      color: #fff;
+      background-image: linear-gradient(135deg,#089bbccc 0%,#5BC0F8 100%);
+      margin-bottom: -1px;
+      padding: 5rem 0 1rem;
+  }
+  .connect-head{
+    text-align: center;
+    font-family: calibri;
+    font-size: 5.6rem;
+    font-weight: 500;
+  }
+  .container{
+    display: flex;
+  }
+  .fixed{
+    width:40%;
+    text-align: right;
+    margin-right: 1rem;
+  }
+  .flex-item{
+    flex-grow: 1;
+    margin-left: 3rem;
+  }
+.connect-container{
+    display: flex;
+}
+.connect-fixed{
+    width:40%;
+    text-align: left;
+    margin-right: 1rem;
+    margin: 50px
+}
+.connect-flex-item{
+    flex-grow: 1;
+    margin-left: 3rem;
+    margin-top: 14rem;
+}
+.connect-title{
+    font-family: calibri;
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.connect-description{
+    font-family: calibri;
+    font-size: 1.6rem;
+    font-weight: 30
+}
+.mydetails{
+  font-size: x-large;
+}
+
+input{
+  width: 580px;
+  height: 40px;
+  font-size: x-large;
+  border-radius: 2px;
+}
+textarea {
+  font-size: xx-large;
+  width: 580px;
+  height: 120px;
+  line-height: 150%;
+  resize:vertical;
+  border-radius: 2px;
+}
+.send{
+  margin-top: -1px;
+  margin-left: -1px;
+  font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+.send::after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.send:hover::after {
+  top: 0px;
+  left: 0px;
+}
+/* End of Fill Button  */
+
+.info{
+  margin-top: 160px;
+  font-family: calibri;
+}

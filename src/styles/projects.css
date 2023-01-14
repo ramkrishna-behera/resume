@@ -1,0 +1,35 @@
+.projects-head{
+    text-align: center;
+    font-family: calibri;
+    font-size: 5.6rem;
+    font-weight: 500;
+}
+.project-container{
+    display: flex;
+}
+.project-fixed{
+    width:40%;
+    text-align: left;
+    margin-right: 1rem;
+    margin: 50px;
+    margin-top: -40px;
+}
+.project-flex-item{
+    flex-grow: 1;
+    margin-left: 3rem;
+}
+.project-title{
+    font-family: calibri;
+    margin-bottom: 1.8rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.project-description{
+    font-family: calibri;
+    font-size: 1.6rem;
+    font-weight: 30
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
